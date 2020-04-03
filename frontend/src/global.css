@@ -13,7 +13,7 @@ body {
 }
 
 input, button, textarea {
-    font: 400 14px Roboto, sans-serif;
+    font: 400 18px Roboto, sans-serif;
 }
 
 button {
@@ -24,6 +24,7 @@ form input {
     height: 60px;
     color: #333;
     border: 1px solid #dcdce6;
+    border-radius: 8px;
     padding: 0 24px;
 }
 
@@ -45,4 +46,20 @@ form input {
 }
 .button:hover{
     filter: brightness(90%);
+}
+.back-link  {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+.back-link  svg {
+    margin-right: 8px;
+}
+.back-link:hover {
+    opacity: 0.8;
 }
