@@ -14,9 +14,9 @@ export default function Logon(){
     async function handleLogin(e) {
         e.preventDefault();
         try {
-            const response = await api.post('sessions', {id}); //Verifica se o ID existe pra poder fazer o login
-            localStorage.setItem('ongId', id); //Salva no Storage do navegador
-            localStorage.setItem('ongName', response.data.name);
+            const response = await api.post('sessions', {id});   //Verifica se o ID existe pra poder fazer o login
+            localStorage.setItem('ongId', id);    //Salva o Id no Storage do navegador
+            localStorage.setItem('ongName', response.data.name); //Salva o nome da ONG no Storage do navegador
 
             history.push('/profile'); //Vai pra rota Profile
         }catch(err) {

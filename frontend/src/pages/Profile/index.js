@@ -15,8 +15,6 @@ export default function Profile(){
   const ongId   = localStorage.getItem('ongId');
   const ongName = localStorage.getItem('ongName'); //Guarda o nome da ONG. E no span, Mostra o nome da ONG na página de Profile
 
-  
-
   useEffect(() => {
     api.get('profile',{ //Pega todos os incidents
       headers:{
@@ -25,12 +23,12 @@ export default function Profile(){
     }).then(response => {
       setIncidents(response.data);
     })  
-  }, [ongId]); //Qual funcção vai ser executada e quando?
+  }, [ongId]); //Qual função vai ser executada e quando?
 
   async function handleDeleteIncident(id){
     try{
-        await api.delete(`incidents/${id}`, {
-                headers:{
+        await api.delete(`incidents/${id}`, { //Recebe o Id que quer deletar. E 
+                headers:{ //Qual ONG está deletadno o incident
                 Authorization: ongId,
             }
         });
@@ -63,7 +61,7 @@ export default function Profile(){
 
       <ul>
         {incidents.map(incident =>(
-          <li key={incident.id} >
+          <li key={incident.id} > 
             <strong>CASO:</strong>
             <p> {incident.title} </p>
         

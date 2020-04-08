@@ -14,9 +14,9 @@ export default function Register() { //busca o dados dos input e manda pra api
     const [city, setCity] = useState(''); //input  city da ong
     const [uf, setUf] = useState(''); //input  UF da ong
     
-    const history = useHistory(); //Faz a navegação qunado nós não podemos usar o Link.
+    const history = useHistory(); //Faz a navegação quando nós não podemos usar o Link.
 
-    async function handleRegister(e){ //Fazer o cadastro da ONG
+    async function handleRegister(e){ //Fazer o cadastro do user, nesse caso é da ONG
         e.preventDefault();//Não recarrega toda a página
         const data = {
             name,
@@ -30,7 +30,7 @@ export default function Register() { //busca o dados dos input e manda pra api
               alert(`Seu ID de acesso: ${response.data.id}`); //Mostra o ID
               history.push('/'); //Faz a navegação pra página inicial
         } catch (err) {
-              alert(`Erro no cadastro, tente novamente`);
+              alert(`Erro no cadastro, tente novamente.`);
         }
     }
     return (
@@ -43,7 +43,7 @@ export default function Register() { //busca o dados dos input e manda pra api
                     <p> Faça seu cadastro, entre na plataforma e ajude as pessoas a encontrarem os casos da sua ONG.</p>
                     
                     <Link className="back-link" to="/">
-                    <FiArrowLeft size={16} color = "#E02041" />
+                        <FiArrowLeft size={16} color = "#E02041" />
                         Voltar para o início
                     </Link>
                 </section>
@@ -52,10 +52,12 @@ export default function Register() { //busca o dados dos input e manda pra api
                 <input placeholder="Nome da ONG" value={name} onChange={e => setName(e.target.value)}/>
                 <input type="email" placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)}/>
                 <input placeholder="Whatsapp" value={whatsapp} onChange={e => setWhatsapp(e.target.value)}/>
+
                 <div className='input-group'>
                     <input placeholder="Cidade"  value={city} onChange={e => setCity(e.target.value)} />
                     <input placeholder="UF" style={{width: 80}}value={uf} onChange={e => setUf(e.target.value)}/>
                 </div>
+
                 <button className="button" type="submit" >Cadastrar</button>
                 </form>
             </div>
