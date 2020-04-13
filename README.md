@@ -10,7 +10,7 @@ Página de Login:
 
 
 Página de cadastro de ONGs:
-![Cadastro de ONGs](https://github.com/christyanbrayan/be-the-hero/blob/master/imgs/print2.png)
+![Cadastro de ONGs](https://raw.githubusercontent.com/christyanbrayan/be-the-hero/master/imgs/print2.png)
 
 Página dos casos cadastrados:
 ![Casos cadastrados](https://github.com/christyanbrayan/be-the-hero/blob/master/imgs/print3.png) 
