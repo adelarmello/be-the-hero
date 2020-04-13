@@ -6,8 +6,7 @@ Esse projeto foi desenvolvido durante a semana omnistack 11, produzida pela Rock
 
 
 Página de Login:
-![Página de login](https://github.com/christyanbrayan/be-the-hero/blob/master/imgs/print1.png)
-
+<img alt="" title="" src="frontend/assets/heroes.png">
 
 Página de cadastro de ONGs:
 ![Cadastro de ONGs](https://raw.githubusercontent.com/christyanbrayan/be-the-hero/master/imgs/print2.png)
