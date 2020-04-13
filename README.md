@@ -11,13 +11,23 @@ Esse projeto foi desenvolvido durante a semana omnistack 11, produzida pela Rock
   <img alt="login" title="login" src="frontend/src/assets/Login.png">
   
   Página de cadastro de ONGs:
-  <img alt="login" title="login" src="frontend/src/assets/cadastroONGs.png">
+  <img alt="cadastro" title="cadastro" src="frontend/src/assets/cadasONG.png">
 
   Página dos casos cadastrados:
-  <img alt="login" title="login" src="frontend/src/assets/MeusCasos Cadastrados.png">
+  <img alt="casos cadastrados" title="casos cadastrados" src="frontend/src/assets/CasosCadastrados.png">
 
   Página para cadastrar um novo caso:
-  <img alt="login" title="login" src="frontend/src/assets/CadastroNovoCaso.png">
+  <img alt="novo caso" title="novo caso" src="frontend/src/assets/CadastroNovoCaso.png">
 
 
 # Projeto Be-the-hero mobile
+<p align="center">
+<img width="50%" height="50%" alt="login" title="login" src="frontend/src/assets/bemvindo.jpeg">
+  
+<img width="50%" height="50%" alt="inicio" title="inicio" src="frontend/src/assets/detalhes.jpeg">
+
+<img width="50%" height="50%" alt="inicio" title="inicio" src="frontend/src/assets/whatsapp.jpeg">
+
+
+<img width="50%" height="50%" alt="inicio" title="inicio" src="frontend/src/assets/email.jpeg">
+</p>
