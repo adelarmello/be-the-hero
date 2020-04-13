@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido durante a semana omnistack 11, produzida pela Rock
   <img alt="cadastro" title="cadastro" src="frontend/src/assets/cadasONG.png">
 
   Página dos casos cadastrados:
-  <img alt="casos cadastrados" title="casos cadastrados" src="frontend/src/assets/CasosCadastrados.png">
+  <img alt="casos cadastrados" title="casos cadastrados" src="frontend/src/assets/Casos Cadastrados.png">
 
   Página para cadastrar um novo caso:
   <img alt="novo caso" title="novo caso" src="frontend/src/assets/CadastroNovoCaso.png">
