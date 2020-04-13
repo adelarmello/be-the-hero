@@ -14,7 +14,7 @@ export default function Detail() {
   const route = useRoute();
 
   const incident = route.params.incident;
-  const message =  `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso "${incident.tilte}".`
+  const message =  `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso "${incident.title}".`
 
   function navigateBack(){
     navigation.goBack()
@@ -50,8 +50,6 @@ export default function Detail() {
         <Text style={styles.incidentProperty}>CASO:</Text>
         <Text style={styles.incidentValue}>{incident.title}</Text>
 
-        <Text style={styles.incidentProperty}>DESCRIÇÃO:</Text>
-        <Text style={styles.incidentValue}>{incident.description}</Text>
 
 
         <Text style={styles.incidentProperty}>VALOR:</Text>
