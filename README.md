@@ -4,7 +4,7 @@
 <img src="frontend/src/assets/logo.svg">
 </h1>
 
-Esse projeto foi desenvolvido durante a semana omnistack 11, produzida pela Rocketseat. O nome da aplicação desenvolvida é Be The Hero, uma aplicação para cadastro de ONGs e casos cadastrados por elas para que outras pessoas possam ajudar com doações em dinheiro.
+Esse projeto foi desenvolvido durante a semana omnistack 11, produzida pela Rocketseat. O nome da aplicação desenvolvida é Be The Hero. Na aplicação web tem o cadastro de ONGs, seu perfil com seus casos cadastrados por elas para que outras pessoas possam ajudar com doações em dinheiro. Já no app mobile o usuário pode verificar os casos cadastrados e entrar em contato com a ONG para ajuda-lá.
 
 ## Sistema web onde as ONGs fazem seu login e cadastram casos: 
   Página de Login:
